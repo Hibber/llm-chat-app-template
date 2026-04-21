@@ -14,8 +14,7 @@ const typingIndicator = document.getElementById("typing-indicator");
 let chatHistory = [
 	{
 		role: "assistant",
-		content:
-			"Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
+		content: "Hello! I’m Nova. What would you like to talk about today?",
 	},
 ];
 let isProcessing = false;
